@@ -113,10 +113,10 @@ module pong_graph(
     
     
     // assign object colors
-    assign wall_rgb   = 12'h00F;    // blue walls
-    assign pad_rgb    = 12'h00F;    // blue paddle
-    assign ball_rgb   = 12'hF00;    // red ball
-    assign bg_rgb     = 12'h0FF;    // aqua background
+    assign wall_rgb   = 12'hd98c8c;    // brown walls
+    assign pad_rgb    = 12'hd98c8c;    // brown paddle
+    assign ball_rgb   = 12'hffff00;    // yellow ball
+    assign bg_rgb     = 12'h808080;    // black background
     
     
     // paddle 
